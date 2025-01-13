@@ -8,7 +8,7 @@ const Counter = () => {
   const increment = () => {
     setCount(count + 1); // Zed 1 l-value dyal count
   };
-// error solv
+// error solved
   return (
     <div>
       <h1>Counter: {count}</h1>
