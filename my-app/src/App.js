@@ -1,5 +1,5 @@
  import Counter from "./counter.js";
-
+//SOLVED ERROR
 function App() {
   return (
     <div>
