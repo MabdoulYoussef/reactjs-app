@@ -9,5 +9,5 @@ function App() {
     </div>
   );
 }
-
+//SOLVED ERROR
 export default App;
