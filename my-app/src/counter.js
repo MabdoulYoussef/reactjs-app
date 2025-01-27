@@ -10,6 +10,7 @@ const Counter = () => {
   };
 // error solved 
 
+// error solved 
 
   return (
     <div>
