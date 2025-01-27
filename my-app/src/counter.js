@@ -8,8 +8,6 @@ const Counter = () => {
   const increment = () => {
     setCount(count + 1); // Zed 1 l-value dyal count
   };
-// error solved 
-// error solved 
 
 // error solved 
 
