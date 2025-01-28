@@ -1,11 +1,12 @@
- import Counter from "./counter.js";
+import Counter from "./Counter";
 //SOLVED ERROR
 function App() {
   return (
     <div>
-      <Counter.js/>
       <h1>Welcome to My React App</h1>
-      
+
+      <Counter/>
+
     </div>
   );
 }
