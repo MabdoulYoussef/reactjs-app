@@ -9,8 +9,8 @@ const Counter = () => {
     setCount(count + 1); // Zed 1 l-value dyal count
   };
   //solvedd
+  //solvedd  
   //solvedd
-
   return (
     <div>
       <h1>Counter: {count}</h1>
