@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 const Counter = () => {
   // Declare state: counter starts at 0
   const [count, setCount] = useState(0);
-
+//solvedd  
   // Function to increment the counter
   const increment = () => {
     setCount(count + 1); // Zed 1 l-value dyal count
