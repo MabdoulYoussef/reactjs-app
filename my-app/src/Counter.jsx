@@ -31,7 +31,7 @@ function ToDoList() {
             />
             {/* Button li kay3tik t7ell l'ajout de task */}
             <button onClick={addTask}>Add Task</button>
-            
+            {/* Kay3rdo l'list dyal tasks */}
             {/* Kay3rdo l'list dyal tasks */}
             <ul>
                 {/* Katloop 3la l'array dyal tasks bach t7att kol task fi <li> */}
