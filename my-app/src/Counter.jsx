@@ -13,7 +13,8 @@ function ToDoList() {
             // Ziyada task jdida f l'array tasks
             setTasks([...tasks, text]); 
             setText("");
-    };
+    };            // Ziyada task jdida f l'array tasks
+
 
     return (
         <div>
@@ -40,5 +41,5 @@ function ToDoList() {
         </div>
     );
 }
-
+onC
 export default ToDoList;
