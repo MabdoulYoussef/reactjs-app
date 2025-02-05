@@ -16,6 +16,7 @@ function ToDoList() {
     };            // Ziyada task jdida f l'array tasks
 
   // Ziyada task jdida f l'array tasks
+            {/* Kay3rdo l'list dyal tasks */}
 
     return (
         <div>
