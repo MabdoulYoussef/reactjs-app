@@ -11,7 +11,6 @@ export default function ShowMore() {
     const navigate = useNavigate()
     useEffect(() => {
         axios.get("https://jsonplaceholder.typicode.com/users").then((response) => {
-            console.log(response.data)
             setUsers(response.data)
         })
     }, [])
