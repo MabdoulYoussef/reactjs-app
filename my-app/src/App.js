@@ -1,14 +1,22 @@
-import Counter from "./Counter";
-//SOLVED ERROR
+
+import { BrowserRouter,Routes,Route } from 'react-router';
+import Api from './components/api';
+import ShowMore from './components/ShowMore';
+
+
+
+
 function App() {
   return (
-    <div>
-      <h1>Welcome to My React App</h1>
-
-      <Counter/>
-
+    <div className="App">
+      <BrowserRouter>
+        <Routes>
+          <Route path="/api" element={<Api />} />
+          <Route path="/api/:id" element={<ShowMore />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
-//SOLVED ERROR
+
 export default App;
