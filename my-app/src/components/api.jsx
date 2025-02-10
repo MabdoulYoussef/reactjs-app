@@ -7,8 +7,7 @@ export default function Api() {
     const [users, setUsers] = useState([])
     useEffect(() => {
         axios.get("https://jsonplaceholder.typicode.com/users")
-        .then((response) => 
-            {setUsers(response.data)})
+            .then((response) => { setUsers(response.data) })
     }, [])
     // ADD
     return (
